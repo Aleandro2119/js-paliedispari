@@ -13,3 +13,10 @@ while (Choice != 'pari' && Choice != 'dispari') {
     Choice = prompt('Scegli "pari" o "dispari"').trim();
 }
 
+// ! Inserisci un numero da 1 a 5
+
+let Number = parseInt(prompt('Inserisci un numero da 1 a 5'));
+
+while (isNaN(Number) || Number < 1 || Number > 5) {
+    Number = parseInt(prompt('Inserisci un numero da 1 a 5'));
+}
