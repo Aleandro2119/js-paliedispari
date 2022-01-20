@@ -34,3 +34,21 @@ function getRandomNumber(min, max) {
     return randomNumber;
 }
 
+function isEven(number) {
+    return number % 2 === 0 ? true : false
+}
+
+//! Vincitore (PUNTO 4)
+
+const sum = Number + randNumber;
+
+if (isEven(sum) && Choice === 'pari') {
+    console.log('Hai vinto!!!');
+
+} else if (isEven(sum) && Choice === 'dispari') {
+    console.log('Hai perso!!!');
+
+} else {
+    console.log('Hai perso!!!');
+}
+
